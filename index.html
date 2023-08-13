@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Warmup Rep Calculator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Warmup Rep Calculator</h2>
+        <input type="text" name="weight" placeholder="Enter weight (lbs)" id="weight">
+            <div id="button" class="btn1"onclick="getWeight()">Submit</div>
+            <table id="displaytable" style="width:100%" class="hidden">
+                <tr>     
+                  <th>Sets</th>
+                  <th>Reps</th> 
+                  <th>Load</th> 
+                </tr>
+                <tr>
+                    <td>Set 1:</td>
+                    <td>5</td> 
+                    <td><p id="one"></p></td> 
+                </tr>
+                <tr>            
+                  <td>Set 2:</td>
+                  <td>4</td> 
+                  <td><p id="two"></p></td> 
+                </tr>
+                <tr>            
+                    <td>Set 3:</td>
+                    <td>3</td>
+                    <td><p id="three"></p></td>  
+                  </tr>
+                  <tr>            
+                    <td>Set 4:</td>
+                    <td>2</td> 
+                    <td><p id="four"></p></td> 
+                  </tr>
+                  <tr>            
+                    <td>Set 5:</td>
+                    <td>1</td> 
+                    <td><p id="five"></p></td> 
+                  </tr>
+              </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
